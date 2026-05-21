@@ -1,0 +1,29 @@
+name: Mobile Tests in CI
+
+on:
+  push:
+    branches: [ "ci", "main" ]
+  pull_request:
+    branches: [ "ci" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v3
+
+    - name: Configurar Node.js (ou a linguagem do seu projeto)
+      uses: actions/setup-node@v3
+      with:
+        node-size: 18
+
+    - name: Instalar dependências
+      run: npm install
+
+    - name: Executar os testes na Device Farm
+      env:
+        BROWSERSTACK_USERNAME: ${{ secrets.joaopedromartino_NJ4poS }}
+        BROWSERSTACK_ACCESS_KEY: ${{ secrets.Z9T546npxaWUFppzJ6SF}}
+      run: npm run test:ci # Altere para o comando de teste do seu projeto
