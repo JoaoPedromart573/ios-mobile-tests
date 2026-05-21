@@ -1,29 +1,31 @@
-name: Mobile Tests in CI
+name: Pipeline de Testes Mobile - EBAC
 
+# O fluxo será disparado automaticamente a cada push na branch ci
 on:
   push:
-    branches: [ "ci", "main" ]
+    branches: [ "ci" ]
   pull_request:
     branches: [ "ci" ]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  executar-testes:
+    runs-on: ubuntu-latest # Máquina virtual Linux fornecida pelo GitHub
 
     steps:
-    - name: Checkout código
-      uses: actions/checkout@v3
+      - name: Passo 1 - Clonar o Repositório
+        uses: actions/checkout@v3
 
-    - name: Configurar Node.js (ou a linguagem do seu projeto)
-      uses: actions/setup-node@v3
-      with:
-        node-size: 18
+      - name: Passo 2 - Configurar o Ambiente Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
 
-    - name: Instalar dependências
-      run: npm install
+      - name: Passo 3 - Instalar Dependências do Projeto
+        run: npm install
 
-    - name: Executar os testes na Device Farm
-      env:
-        BROWSERSTACK_USERNAME: ${{ secrets.DEVICE_FARM_USER }}
-        BROWSERSTACK_ACCESS_KEY: ${{ secrets.DEVICE_FARM_KEY }}
-      run: npm run test:ci # Altere para o comando de teste do seu projeto
+      - name: Passo 4 - Executar Testes Mobile no BrowserStack
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        run: npm run wdio
