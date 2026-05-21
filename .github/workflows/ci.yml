@@ -1,6 +1,6 @@
 name: Pipeline de Testes Mobile - EBAC
 
-# O fluxo será disparado automaticamente a cada push na branch ci
+# O fluxo será disparado automaticamente a cada push ou pull request na branch ci
 on:
   push:
     branches: [ "ci" ]
@@ -24,8 +24,11 @@ jobs:
       - name: Passo 3 - Instalar Dependências do Projeto
         run: npm install
 
+      - name: Passo 3.5 - Corrigir Permissão de Execução do WDIO
+        run: chmod +x ./node_modules/.bin/wdio
+
       - name: Passo 4 - Executar Testes Mobile no BrowserStack
         env:
           BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
           BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        run: npm run wdio
+        run: npm run test:ci
