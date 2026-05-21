@@ -1,0 +1,29 @@
+{
+  "name": "ios-mobile-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoPedromart573/ios-mobile-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoaoPedromart573/ios-mobile-tests/issues"
+  },
+  "homepage": "https://github.com/JoaoPedromart573/ios-mobile-tests#readme",
+  "devDependencies": {
+    "@wdio/cli": "^9.27.1",
+    "@wdio/local-runner": "^9.27.1",
+    "@wdio/mocha-framework": "^6.1.17",
+    "@wdio/spec-reporter": "^9.27.1",
+    "appium": "^2.3.0",
+    "webdriverio": "^9.27.1"
+  }
+}
