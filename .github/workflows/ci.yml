@@ -1,6 +1,5 @@
 name: Pipeline de Testes Mobile - EBAC
 
-# O fluxo será disparado automaticamente a cada push ou pull request na branch ci
 on:
   push:
     branches: [ "ci" ]
@@ -9,7 +8,7 @@ on:
 
 jobs:
   executar-testes:
-    runs-on: ubuntu-latest # Máquina virtual Linux fornecida pelo GitHub
+    runs-on: ubuntu-latest
 
     steps:
       - name: Passo 1 - Clonar o Repositório
@@ -24,8 +23,11 @@ jobs:
       - name: Passo 3 - Instalar Dependências do Projeto
         run: npm install
 
-      - name: Passo 3.5 - Corrigir Permissão de Execução do WDIO
-        run: chmod +x ./node_modules/.bin/wdio
+      # CORREÇÃO AQUI: Garante permissão para a pasta inteira de binários do Node
+      - name: Passo 3.5 - Forçar Permissões de Execução
+        run: |
+          chmod -R +x ./node_modules/.bin/
+          sudo chmod -R +x /home/runner/.npm/
 
       - name: Passo 4 - Executar Testes Mobile no BrowserStack
         env:
