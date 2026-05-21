@@ -24,6 +24,6 @@ jobs:
 
     - name: Executar os testes na Device Farm
       env:
-        BROWSERSTACK_USERNAME: ${{ secrets.joaopedromartino_NJ4poS }}
-        BROWSERSTACK_ACCESS_KEY: ${{ secrets.Z9T546npxaWUFppzJ6SF}}
+        BROWSERSTACK_USERNAME: ${{ secrets.DEVICE_FARM_USER }}
+        BROWSERSTACK_ACCESS_KEY: ${{ secrets.DEVICE_FARM_KEY }}
       run: npm run test:ci # Altere para o comando de teste do seu projeto
