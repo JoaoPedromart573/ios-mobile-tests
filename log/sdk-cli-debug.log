@@ -8236,3 +8236,1038 @@
 2026-05-21T13:27:59.198Z CLI debug [sdk:service]  [szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat]  [9f62c5b9-ec6d-45e2-8a95-70f473f873b1]  StopBinSession Completed: time=1106.9395000040531
 2026-05-21T13:27:59.199Z CLI debug  [szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat]  [9f62c5b9-ec6d-45e2-8a95-70f473f873b1]  Need to write this in file sdk:cli:onStop
 2026-05-21T13:27:59.199Z CLI debug  [szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat]  [9f62c5b9-ec6d-45e2-8a95-70f473f873b1]  Not Needed to write this in file sdk:hook:onStop:_0x14e7d7 {"name":"sdk:hook:onStop:_0x14e7d7","entryType":"measure","startTime":1779370079005.968,"duration":192.3861999809742,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:13.142Z CLI debug [main]    Starting main function execution
+2026-05-22T13:25:13.143Z CLI debug [main]    Generated binSessionId: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:25:13.151Z CLI debug [main]    Resolved listen address: 127.0.0.1:5400
+2026-05-22T13:25:13.183Z CLI info [main]    Server listening on port: 5400
+2026-05-22T13:25:13.184Z CLI debug    [2026-05-22T13:25:13.183Z][ TEST REPORTING AND ANALYTICS ] Monitoring has started
+2026-05-22T13:25:13.223Z CLI debug [core:bin-session]    Starting bin session with config: {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"****\",\"accessKey\":\"****\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}"}
+2026-05-22T13:25:13.226Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-05-22T13:25:13.325Z CLI info    Should start debug utility: undefined
+2026-05-22T13:25:13.330Z CLI debug [sdk:service]   [36a516bf-bbe7-4cef-8913-763133b41271]  StartBinSession details: {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}","id":"36a516bf-bbe7-4cef-8913-763133b41271","config":{"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[],"browserStackLocalOptions":{"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false},"browserstackAutomation":true,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"additionalPlatforms":[],"additionalParams":{}},"ciInfo":{"build_number":null},"versionControlInfo":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"hostInfo":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"data":{},"isAppAutomate":false,"browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false}}
+2026-05-22T13:25:13.330Z CLI info [testhub:module]   [36a516bf-bbe7-4cef-8913-763133b41271]  Starting testhub from 18880:0
+2026-05-22T13:25:13.331Z CLI debug [testhub:utils]   [36a516bf-bbe7-4cef-8913-763133b41271]  detectBuildTool: no build tool detected for language "ecmascript"
+2026-05-22T13:25:13.331Z CLI debug [testhub:module]   [36a516bf-bbe7-4cef-8913-763133b41271]  startBuild: payload={"started_at":"2026-05-22T13:25:13.331Z","host_info":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"project_name":"","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"WebdriverIO-mocha","frameworkVersion":"9.27.0","sdkVersion":"9.27.0","cliVersion":"1.33.4","language":"ECMAScript","testFramework":{"name":"WebdriverIO","version":"9.27.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false,"lts":false},"browserstackAutomation":true,"test_orchestration":{}}
+2026-05-22T13:25:13.331Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-05-22T13:25:13.332Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://sdk.browserstack.com/api/v1/build/start
+2026-05-22T13:25:13.333Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  FindNearestHub called with hubPath: /wd/hub
+2026-05-22T13:25:13.333Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  No cached result or no search in-progress, initiating findNearestHub
+2026-05-22T13:25:13.333Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Fetching list of next available hubs from BrowserStack
+2026-05-22T13:25:13.333Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-05-22T13:25:13.333Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub.browserstack.com/next_hubs
+2026-05-22T13:25:14.238Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub.browserstack.com/next_hubs: 200 OK
+2026-05-22T13:25:14.239Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub.browserstack.com/next_hubs: 200
+2026-05-22T13:25:14.240Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Fetched next hubs successfully: {"hubs":["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]}
+2026-05-22T13:25:14.241Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Checking hub availability at https://hub-use.browserstack.com
+2026-05-22T13:25:14.241Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub-use.browserstack.com/check
+2026-05-22T13:25:14.241Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-05-22T13:25:14.241Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub-use.browserstack.com/check
+2026-05-22T13:25:14.242Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Checking hub availability at https://hub-usw.browserstack.com
+2026-05-22T13:25:14.242Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub-usw.browserstack.com/check
+2026-05-22T13:25:14.242Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-05-22T13:25:14.242Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub-usw.browserstack.com/check
+2026-05-22T13:25:14.243Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Checking hub availability at https://hub-euw.browserstack.com
+2026-05-22T13:25:14.243Z CLI debug [selenium]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub-euw.browserstack.com/check
+2026-05-22T13:25:14.243Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-05-22T13:25:14.243Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://hub-euw.browserstack.com/check
+2026-05-22T13:25:14.251Z CLI debug   [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://hub.browserstack.com/next_hubs {"name":"request:https://hub.browserstack.com/next_hubs","entryType":"measure","startTime":1779456313333.9807,"duration":905.234700024128,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.361Z CLI debug [core:http]   [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://sdk.browserstack.com/api/v1/build/start: 200 OK
+2026-05-22T13:25:14.363Z CLI info [testhub:module]   [36a516bf-bbe7-4cef-8913-763133b41271]  startBuild: response=6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf
+2026-05-22T13:25:14.364Z CLI debug [testhub:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStart: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:25:14.366Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Firing CLI event for funnel data at sdk/v1/event
+2026-05-22T13:25:14.366Z CLI debug [instrumentation:funnel]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to sdk/v1/event
+2026-05-22T13:25:14.366Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-05-22T13:25:14.366Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://api.browserstack.com/sdk/v1/event
+2026-05-22T13:25:14.369Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:_0x580fe7 {"name":"sdk:hook:onStart:_0x580fe7","entryType":"measure","startTime":1779456313330.6458,"duration":1034.3753999471664,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.369Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:testhub
+2026-05-22T13:25:14.371Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://sdk.browserstack.com/api/v1/build/start {"name":"request:https://sdk.browserstack.com/api/v1/build/start","entryType":"measure","startTime":1779456313332.5127,"duration":1030.3155000209808,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.965Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2026-05-22T13:25:14.966Z CLI debug [instrumentation:funnel]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from sdk/v1/event: 200
+2026-05-22T13:25:14.966Z CLI debug [instrumentation:funnel]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  API Event response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2026-05-22T13:25:14.966Z CLI debug [instrumentation:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Instrumentation onStart: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:25:14.967Z CLI debug [TEST REPORTING AND ANALYTICS:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStart: 36a516bf-bbe7-4cef-8913-763133b41271 language=ecmascript
+2026-05-22T13:25:14.967Z CLI debug [ai:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStart: enabled=false isAuthenticated=undefined
+2026-05-22T13:25:14.968Z CLI debug [percy:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStart: enabled=false configured=false
+2026-05-22T13:25:14.968Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sanitizing local args: {"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false}
+2026-05-22T13:25:14.971Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:instrumentation:module {"name":"sdk:hook:onStart:instrumentation:module","entryType":"measure","startTime":1779456314365.0903,"duration":601.8213999867439,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.972Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://api.browserstack.com/sdk/v1/event {"name":"request:https://api.browserstack.com/sdk/v1/event","entryType":"measure","startTime":1779456314366.5454,"duration":599.6812999844551,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.972Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:observability:module {"name":"sdk:hook:onStart:observability:module","entryType":"measure","startTime":1779456314967.0208,"duration":0.30489999055862427,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.972Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:accessibility:module {"name":"sdk:hook:onStart:accessibility:module","entryType":"measure","startTime":1779456314967.5645,"duration":0.05330002307891846,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.972Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:_0x441e63 {"name":"sdk:hook:onStart:_0x441e63","entryType":"measure","startTime":1779456314967.6743,"duration":0.1877000331878662,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.972Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:_0x3f6988 {"name":"sdk:hook:onStart:_0x3f6988","entryType":"measure","startTime":1779456314968.1143,"duration":0.4225999712944031,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:14.972Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:percy
+2026-05-22T13:25:14.975Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:proxy-setup
+2026-05-22T13:25:15.150Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub-use.browserstack.com/check: 200 OK
+2026-05-22T13:25:15.151Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub-use.browserstack.com/check: 200 - Hub available
+2026-05-22T13:25:15.151Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Hub at https://hub-use.browserstack.com responded successfully with latency: 909.736799955368 ms.
+2026-05-22T13:25:15.151Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Successfully found nearest hub
+2026-05-22T13:25:15.157Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:cli:findNearestHub
+2026-05-22T13:25:15.164Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://hub-use.browserstack.com/check {"name":"request:https://hub-use.browserstack.com/check","entryType":"measure","startTime":1779456314241.84,"duration":909.0494999885559,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:15.361Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub-usw.browserstack.com/check: 200 OK
+2026-05-22T13:25:15.362Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub-usw.browserstack.com/check: 200 - Hub available
+2026-05-22T13:25:15.363Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Hub at https://hub-usw.browserstack.com responded successfully with latency: 1120.1639999747276 ms.
+2026-05-22T13:25:15.364Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://hub-usw.browserstack.com/check {"name":"request:https://hub-usw.browserstack.com/check","entryType":"measure","startTime":1779456314243.097,"duration":1119.6991000175476,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:16.507Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub-euw.browserstack.com/check: 200 OK
+2026-05-22T13:25:16.515Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://hub-euw.browserstack.com/check: 200 - Hub available
+2026-05-22T13:25:16.516Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Hub at https://hub-euw.browserstack.com responded successfully with latency: 2272.0925999879837 ms.
+2026-05-22T13:25:16.517Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://hub-euw.browserstack.com/check {"name":"request:https://hub-euw.browserstack.com/check","entryType":"measure","startTime":1779456314243.9878,"duration":2271.785300016403,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:37.738Z CLI debug [local:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStart: 36a516bf-bbe7-4cef-8913-763133b41271 localIdentifier=May_22_1025_JpMartin_238i
+2026-05-22T13:25:37.740Z CLI debug [app-automate:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  App handling disabled.
+2026-05-22T13:25:37.740Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStart hook invoked successfully.
+2026-05-22T13:25:37.740Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Starting to generate capabilities for all platforms.
+2026-05-22T13:25:37.740Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Primary platforms to configure: 1, additional: 0)
+2026-05-22T13:25:37.741Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing platform: 0
+2026-05-22T13:25:37.742Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Platform caps before processing (isSecondaryDriver=false): {"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}
+2026-05-22T13:25:37.742Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  root caps before processing: {"appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","platformName":"iOS"}
+2026-05-22T13:25:37.743Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  bstack caps before processing: {"userName":"[REDACTED]","accessKey":"[REDACTED]","wdioService":"9.27.0","hostName":"JpMartin","browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0"}
+2026-05-22T13:25:37.743Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  root caps after processing: {"appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","platformName":"iOS"}
+2026-05-22T13:25:37.743Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  bstack caps after processing: {"userName":"[REDACTED]","accessKey":"[REDACTED]","wdioService":"9.27.0","hostName":"JpMartin","browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0"}
+2026-05-22T13:25:37.743Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Generated capabilities for platform 0:, {"appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","platformName":"iOS","bstack:options":{"userName":"[REDACTED]","accessKey":"[REDACTED]","wdioService":"9.27.0","hostName":"JpMartin","browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"deviceName":"iPhone 15","platformVersion":"17","useW3C":true,"accessibilityOptions":{}}}
+2026-05-22T13:25:37.743Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Capabilities set for platform 0
+2026-05-22T13:25:37.743Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Finished generating capabilities for all platforms. session {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}","id":"36a516bf-bbe7-4cef-8913-763133b41271","config":{"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":false,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[],"browserStackLocalOptions":{"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false},"browserstackAutomation":true,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"additionalPlatforms":[],"additionalParams":{},"testOrchestrationOptions":{"retryTestsOnFailure":{},"abortBuildOnFailure":{}},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"hubUrl":"https://hub.browserstack.com/wd/hub","proxySettings":{}},"ciInfo":{"build_number":null},"versionControlInfo":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"hostInfo":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"data":{},"isAppAutomate":false,"browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"centralAuthFlow":true,"testhub":{"automate":{"success":true,"options":{"allow_screenshots":true}},"jwt":"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzc5NDY3MTE1IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjExMDAxMDA3LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6MTA5MTMzOTcsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.V0y2CIb20T7msXGjimK7y7HeXuaYRW2H8N6ca3gaPHLD5GMK3le3_uqsiSXxbKnVo9icEUphPtKyQ9yZNu-Ue9falgrfo4AhzaRKd8Ip6XBnUMhOqCIUDkaKLaUKdMUojlwq2Y08BdWJ1-Fe-9A_PDGXORiOKEop78oP_J-KaKHLBVWRml9lLgCv0bcmlzp6_wlRz6juRGhb6FH6AEdtWhdtifIPy99aJxwGKwx67As3Gei5sF3jnq9YB6vuvhjAjkibQd_aq7y0wNpbQfBaykr24vGVwFZOeE1VncwPXq0dln-lGU9p1wpm2fKV-BQ4H-kHdbPdntKXv_xCAYNbBA","buildHashedId":"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf","testhubEvents":true,"jwtExpiresIn":1779464176},"observability":{"success":true,"options":{"allow_screenshots":true,"testObservabilityOptions":{}}}}
+2026-05-22T13:25:37.752Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  StartBinSession completed: time=24531.019300043583
+2026-05-22T13:25:37.757Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:cli:startBinSession {"name":"sdk:cli:startBinSession","entryType":"measure","startTime":1779456313222.1753,"duration":24522.157200038433,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:37.757Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:_0x14e7d7 {"name":"sdk:hook:onStart:_0x14e7d7","entryType":"measure","startTime":1779456314968.5796,"duration":22771.65999996662,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:37.757Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:automate:local
+2026-05-22T13:25:37.760Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStart:appautomate:module {"name":"sdk:hook:onStart:appautomate:module","entryType":"measure","startTime":1779456337740.325,"duration":0.23120003938674927,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:40.108Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  No cached nearest hub found, initiating search.
+2026-05-22T13:25:40.108Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  FindNearestHub called with hubPath: /wd/hub
+2026-05-22T13:25:40.108Z CLI debug [selenium]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Returning cached nearestHub result: [object Object]
+2026-05-22T13:25:40.108Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Cached new nearest hub URL: https://hub-use.browserstack.com/wd/hub for binSessionId=36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:25:40.108Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  ConnectBinSession details: {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}","id":"36a516bf-bbe7-4cef-8913-763133b41271","config":{"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":false,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[],"browserStackLocalOptions":{"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false},"browserstackAutomation":true,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"additionalPlatforms":[],"additionalParams":{},"testOrchestrationOptions":{"retryTestsOnFailure":{},"abortBuildOnFailure":{}},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"hubUrl":"https://hub.browserstack.com/wd/hub","proxySettings":{}},"ciInfo":{"build_number":null},"versionControlInfo":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"hostInfo":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"data":{},"isAppAutomate":false,"browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"centralAuthFlow":true,"testhub":{"automate":{"success":true,"options":{"allow_screenshots":true}},"jwt":"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzc5NDY3MTE1IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjExMDAxMDA3LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6MTA5MTMzOTcsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.V0y2CIb20T7msXGjimK7y7HeXuaYRW2H8N6ca3gaPHLD5GMK3le3_uqsiSXxbKnVo9icEUphPtKyQ9yZNu-Ue9falgrfo4AhzaRKd8Ip6XBnUMhOqCIUDkaKLaUKdMUojlwq2Y08BdWJ1-Fe-9A_PDGXORiOKEop78oP_J-KaKHLBVWRml9lLgCv0bcmlzp6_wlRz6juRGhb6FH6AEdtWhdtifIPy99aJxwGKwx67As3Gei5sF3jnq9YB6vuvhjAjkibQd_aq7y0wNpbQfBaykr24vGVwFZOeE1VncwPXq0dln-lGU9p1wpm2fKV-BQ4H-kHdbPdntKXv_xCAYNbBA","buildHashedId":"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf","testhubEvents":true,"jwtExpiresIn":1779464176},"observability":{"success":true,"options":{"allow_screenshots":true,"testObservabilityOptions":{},"allowScreenshots":true}}}
+2026-05-22T13:25:40.108Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onConnect hook invoked successfully.
+2026-05-22T13:25:40.114Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  ConnectBinSession completed: time=6.125699996948242
+2026-05-22T13:25:40.114Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:cli:connectBinSession {"name":"sdk:cli:connectBinSession","entryType":"measure","startTime":1779456340108.0706,"duration":1.1445000171661377,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:40.131Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Multi-Driver DriverInit: binSessionId=36a516bf-bbe7-4cef-8913-763133b41271, platformIndex=0, isSecondary=false
+2026-05-22T13:25:40.131Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  User incomingParams "{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"bstack:options\":{\"wdioService\":\"9.27.0\",\"testhubBuildUuid\":\"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf\",\"buildProductMap\":{\"observability\":true,\"accessibility\":null,\"percy\":false,\"automate\":true,\"app_automate\":false}}}"
+2026-05-22T13:25:40.131Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Using cached nearest hub URL: https://hub-use.browserstack.com/wd/hub
+2026-05-22T13:25:40.131Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Cached new nearest hub URL: https://hub-use.browserstack.com/wd/hub for binSessionId=36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:25:40.131Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  DriverInit: platformIndex=0 hubUrl=https://hub-use.browserstack.com/wd/hub
+2026-05-22T13:25:40.132Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  DriverInit details: {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}","id":"36a516bf-bbe7-4cef-8913-763133b41271","config":{"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":false,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[],"browserStackLocalOptions":{"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false},"browserstackAutomation":true,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"additionalPlatforms":[],"additionalParams":{},"testOrchestrationOptions":{"retryTestsOnFailure":{},"abortBuildOnFailure":{}},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"hubUrl":"https://hub-use.browserstack.com/wd/hub","proxySettings":{}},"ciInfo":{"build_number":null},"versionControlInfo":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"hostInfo":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"data":{},"isAppAutomate":false,"browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"centralAuthFlow":true,"testhub":{"automate":{"success":true,"options":{"allow_screenshots":true}},"jwt":"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzc5NDY3MTE1IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjExMDAxMDA3LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6MTA5MTMzOTcsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.V0y2CIb20T7msXGjimK7y7HeXuaYRW2H8N6ca3gaPHLD5GMK3le3_uqsiSXxbKnVo9icEUphPtKyQ9yZNu-Ue9falgrfo4AhzaRKd8Ip6XBnUMhOqCIUDkaKLaUKdMUojlwq2Y08BdWJ1-Fe-9A_PDGXORiOKEop78oP_J-KaKHLBVWRml9lLgCv0bcmlzp6_wlRz6juRGhb6FH6AEdtWhdtifIPy99aJxwGKwx67As3Gei5sF3jnq9YB6vuvhjAjkibQd_aq7y0wNpbQfBaykr24vGVwFZOeE1VncwPXq0dln-lGU9p1wpm2fKV-BQ4H-kHdbPdntKXv_xCAYNbBA","buildHashedId":"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf","testhubEvents":true,"jwtExpiresIn":1779464176},"observability":{"success":true,"options":{"allow_screenshots":true,"testObservabilityOptions":{},"allowScreenshots":true}}}
+2026-05-22T13:25:40.132Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [Current] Platform capabilities for platform 0: {"appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","platformName":"iOS","bstack:options":{"userName":"[REDACTED]","accessKey":"[REDACTED]","wdioService":"9.27.0","hostName":"JpMartin","browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"deviceName":"iPhone 15","platformVersion":"17","useW3C":true,"accessibilityOptions":{}}}
+2026-05-22T13:25:40.132Z CLI debug [core:bin-session]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [Final] Set Platform capabilities for session Id 36a516bf-bbe7-4cef-8913-763133b41271 for platform 0: {"appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","platformName":"iOS","bstack:options":{"userName":"[REDACTED]","accessKey":"[REDACTED]","wdioService":"9.27.0","hostName":"JpMartin","browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"deviceName":"iPhone 15","platformVersion":"17","useW3C":true,"accessibilityOptions":{}},"appium:deviceName":"iPhone 15","appium:platformVersion":"17"}
+2026-05-22T13:25:40.134Z CLI debug [accessibility:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  accessibilityCaps is not a valid array undefined
+2026-05-22T13:25:40.134Z CLI info [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Driver initialized as primary driver: platformIndex=0
+2026-05-22T13:25:40.134Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Get Platform capabilities for session Id 36a516bf-bbe7-4cef-8913-763133b41271 for platform 0: {"appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","platformName":"iOS","bstack:options":{"userName":"[REDACTED]","accessKey":"[REDACTED]","wdioService":"9.27.0","hostName":"JpMartin","browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"deviceName":"iPhone 15","platformVersion":"17","useW3C":true,"accessibilityOptions":{},"local":true,"localIdentifier":"May_22_1025_JpMartin_238i","browserstackAutomation":true,"testhubBuildUuid":"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf"},"appium:deviceName":"iPhone 15","appium:platformVersion":"17"} for session {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}","id":"36a516bf-bbe7-4cef-8913-763133b41271","config":{"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":false,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[],"browserStackLocalOptions":{"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false},"browserstackAutomation":true,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"additionalPlatforms":[],"additionalParams":{},"testOrchestrationOptions":{"retryTestsOnFailure":{},"abortBuildOnFailure":{}},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"hubUrl":"https://hub-use.browserstack.com/wd/hub","proxySettings":{}},"ciInfo":{"build_number":null},"versionControlInfo":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"hostInfo":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"data":{},"isAppAutomate":false,"browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"centralAuthFlow":true,"testhub":{"automate":{"success":true,"options":{"allow_screenshots":true}},"jwt":"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzc5NDY3MTE1IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjExMDAxMDA3LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6MTA5MTMzOTcsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.V0y2CIb20T7msXGjimK7y7HeXuaYRW2H8N6ca3gaPHLD5GMK3le3_uqsiSXxbKnVo9icEUphPtKyQ9yZNu-Ue9falgrfo4AhzaRKd8Ip6XBnUMhOqCIUDkaKLaUKdMUojlwq2Y08BdWJ1-Fe-9A_PDGXORiOKEop78oP_J-KaKHLBVWRml9lLgCv0bcmlzp6_wlRz6juRGhb6FH6AEdtWhdtifIPy99aJxwGKwx67As3Gei5sF3jnq9YB6vuvhjAjkibQd_aq7y0wNpbQfBaykr24vGVwFZOeE1VncwPXq0dln-lGU9p1wpm2fKV-BQ4H-kHdbPdntKXv_xCAYNbBA","buildHashedId":"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf","testhubEvents":true,"jwtExpiresIn":1779464176},"observability":{"success":true,"options":{"allow_screenshots":true,"testObservabilityOptions":{},"allowScreenshots":true}}}
+2026-05-22T13:25:40.136Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  DriverInit completed: time=5.689200043678284
+2026-05-22T13:25:40.138Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:cli:driverInit {"name":"sdk:cli:driverInit","entryType":"measure","startTime":1779456340131.1992,"duration":4.033100008964539,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:40.138Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onDriverInit:accessibility:module {"name":"sdk:hook:onDriverInit:accessibility:module","entryType":"measure","startTime":1779456340133.2576,"duration":0.03229999542236328,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:40.138Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onDriverInit:_0x441e63 {"name":"sdk:hook:onDriverInit:_0x441e63","entryType":"measure","startTime":1779456340133.3481,"duration":0.010600030422210693,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:40.138Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onDriverInit:_0x14e7d7 {"name":"sdk:hook:onDriverInit:_0x14e7d7","entryType":"measure","startTime":1779456340133.3794,"duration":0.09780001640319824,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:25:40.138Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onDriverInit:appautomate:module {"name":"sdk:hook:onDriverInit:appautomate:module","entryType":"measure","startTime":1779456340133.4993,"duration":0.0067999958992004395,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:26:03.552Z CLI debug [TEST REPORTING AND ANALYTICS:webdriverio]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  payload {"event_type":"CBTSessionCreated","test_run":{"uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","integrations":{"browserstack":{"product":"automate","session_id":"01e8b6bed191193d62678e440739df202de04844","capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","bstack:options":{"localIdentifier":"May_22_1025_JpMartin_238i","hostName":"JpMartin"},"newCommandTimeout":0,"realMobile":"true","deviceName":"iPhone 15","safariIgnoreFraudWarning":true,"orientation":"PORTRAIT","deviceOrientation":"PORTRAIT","noReset":true,"automationName":"XCUITest","keychainPath":"[REDACTED VALUE]","keychainPassword":"[REDACTED VALUE]","useXctestrunFile":true,"bootstrapPath":"/usr/local/.browserstack/config/wda_derived_data_17_3.2.0.10.23.2_515e29e8-234f-4a0f-a938-5ab844beed3d/Build/Products","browserstack.isTargetBased":"true","bundleID":"br.com.lojaebac","bundleId":"br.com.lojaebac","udid":"00008120-001864903AE1A01E","webkitResponseTimeout":20000,"safariInitialUrl":"http://mobile-internet-check.browserstack.com","waitForQuiescence":false,"wdaStartupRetries":3},"platform":"iOS","platform_version":"17"}}}}
+2026-05-22T13:26:03.558Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+    integrations: { browserstack: [Object] }
+  }
+} to 18880:0
+2026-05-22T13:26:03.561Z CLI debug [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  TestRunStarted: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.27.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","test_result":"pending","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_name":"Deve realizar checkout com sucesso","test_code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}","test_file_path":"test\\specs\\checkout-ios.e2e.ts","test_location":"test\\specs\\checkout-ios.e2e.ts","test_scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_scopes":["Fluxo de compra iOS - EBAC Store"],"test_started_at":"2026-05-22T13:26:03.494Z","automate_session_name":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","logs":[]}
+2026-05-22T13:26:03.562Z CLI debug [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  TestRunStarted: test_run={"type":"test","framework":"WebdriverIO-mocha","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","name":"Deve realizar checkout com sucesso","body":{"lang":"ecmascript","code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}"},"identifier":"Deve realizar checkout com sucesso","scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","scopes":["Fluxo de compra iOS - EBAC Store"],"file_name":"test\\specs\\checkout-ios.e2e.ts","vc_filepath":"test\\specs\\checkout-ios.e2e.ts","location":"test\\specs\\checkout-ios.e2e.ts","result":"pending","duration_in_ms":null,"started_at":"2026-05-22T13:26:03.494Z","retry_of":null,"tags":[],"customRerunParam":{},"hooks":[],"product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false}}
+2026-05-22T13:26:03.563Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+    name: 'Deve realizar checkout com sucesso',
+    body: {
+      lang: 'ecmascript',
+      code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+    },
+    identifier: 'Deve realizar checkout com sucesso',
+    scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+    scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+    file_name: 'test\\specs\\checkout-ios.e2e.ts',
+    vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+    location: 'test\\specs\\checkout-ios.e2e.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-05-22T13:26:03.494Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 18880:0
+2026-05-22T13:26:04.353Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 2
+2026-05-22T13:26:04.356Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '01e8b6bed191193d62678e440739df202de04844',
+          capabilities: {
+            webStorageEnabled: false,
+            locationContextEnabled: false,
+            browserName: '',
+            platform: 'MAC',
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            takesScreenshot: true,
+            networkConnectionEnabled: false,
+            platformName: 'iOS',
+            'bstack:options': {
+              localIdentifier: 'May_22_1025_JpMartin_238i',
+              hostName: 'JpMartin'
+            },
+            newCommandTimeout: 0,
+            realMobile: 'true',
+            deviceName: 'iPhone 15',
+            safariIgnoreFraudWarning: true,
+            orientation: 'PORTRAIT',
+            deviceOrientation: 'PORTRAIT',
+            noReset: true,
+            automationName: 'XCUITest',
+            keychainPath: '[REDACTED VALUE]',
+            keychainPassword: '[REDACTED VALUE]',
+            useXctestrunFile: true,
+            bootstrapPath: '/usr/local/.browserstack/config/wda_derived_data_17_3.2.0.10.23.2_515e29e8-234f-4a0f-a938-5ab844beed3d/Build/Products',
+            'browserstack.isTargetBased': 'true',
+            bundleID: 'br.com.lojaebac',
+            bundleId: 'br.com.lojaebac',
+            udid: '00008120-001864903AE1A01E',
+            webkitResponseTimeout: 20000,
+            safariInitialUrl: 'http://mobile-internet-check.browserstack.com',
+            waitForQuiescence: false,
+            wdaStartupRetries: 3
+          },
+          platform: 'iOS',
+          platform_version: '17',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      name: 'Deve realizar checkout com sucesso',
+      body: {
+        lang: 'ecmascript',
+        code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+      },
+      identifier: 'Deve realizar checkout com sucesso',
+      scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+      scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+      file_name: 'test\\specs\\checkout-ios.e2e.ts',
+      vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+      location: 'test\\specs\\checkout-ios.e2e.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-05-22T13:26:03.494Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 18880:0
+2026-05-22T13:26:04.357Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 5399 bytes. Events are 'CBTSessionCreated':f8b4231f-f580-431a-a9a2-cfe3bf863348,'TestRunStarted':f8b4231f-f580-431a-a9a2-cfe3bf863348
+2026-05-22T13:26:04.357Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"CBTSessionCreated","test_run":{"uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","integrations":{"browserstack":{"product":"automate","session_id":"01e8b6bed191193d62678e440739df202de04844","capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","bstack:options":{"localIdentifier":"May_22_1025_JpMartin_238i","hostName":"JpMartin"},"newCommandTimeout":0,"realMobile":"true","deviceName":"iPhone 15","safariIgnoreFraudWarning":true,"orientation":"PORTRAIT","deviceOrientation":"PORTRAIT","noReset":true,"automationName":"XCUITest","keychainPath":"[REDACTED VALUE]","keychainPassword":"[REDACTED VALUE]","useXctestrunFile":true,"bootstrapPath":"/usr/local/.browserstack/config/wda_derived_data_17_3.2.0.10.23.2_515e29e8-234f-4a0f-a938-5ab844beed3d/Build/Products","browserstack.isTargetBased":"true","bundleID":"br.com.lojaebac","bundleId":"br.com.lojaebac","udid":"00008120-001864903AE1A01E","webkitResponseTimeout":20000,"safariInitialUrl":"http://mobile-internet-check.browserstack.com","waitForQuiescence":false,"wdaStartupRetries":3},"platform":"iOS","platform_version":"17"}}}},{"event_type":"TestRunStarted","test_run":{"type":"test","framework":"WebdriverIO-mocha","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","name":"Deve realizar checkout com sucesso","body":{"lang":"ecmascript","code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}"},"identifier":"Deve realizar checkout com sucesso","scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","scopes":["Fluxo de compra iOS - EBAC Store"],"file_name":"test\\specs\\checkout-ios.e2e.ts","vc_filepath":"test\\specs\\checkout-ios.e2e.ts","location":"test\\specs\\checkout-ios.e2e.ts","result":"pending","duration_in_ms":null,"started_at":"2026-05-22T13:26:03.494Z","retry_of":null,"tags":[],"customRerunParam":{},"hooks":[],"product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false}},"logs":[]}]
+2026-05-22T13:26:04.357Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:04.358Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:26:04.603Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:26:04.577Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Inicializando sessão e aguardando abertura do app..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:26:05.290Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:26:05.291Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:26:05.292Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'CBTSessionCreated':f8b4231f-f580-431a-a9a2-cfe3bf863348,'TestRunStarted':f8b4231f-f580-431a-a9a2-cfe3bf863348 -- {"success":true}
+2026-05-22T13:26:05.292Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 1
+2026-05-22T13:26:05.293Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456364358.1611,"duration":932.9014999866486,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:26:06.362Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:26:06.364Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:26:04.577Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Inicializando sessão e aguardando abertura do app..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:26:06.364Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 457 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:26:06.365Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:26:04.577Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Inicializando sessão e aguardando abertura do app...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:26:06.365Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:06.366Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:26:06.864Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:26:06.865Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:26:06.865Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:26:06.865Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:26:06.866Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456366366.8293,"duration":498.44559997320175,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:26:09.628Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:26:09.597Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Acessando aba inicial..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:26:10.381Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:26:10.382Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:26:09.597Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Acessando aba inicial..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:26:10.382Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 428 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:26:10.383Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:26:09.597Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Acessando aba inicial...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:26:10.384Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:10.384Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:26:10.885Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:26:10.887Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:26:10.887Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:26:10.888Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:26:10.889Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456370384.8416,"duration":502.3609000444412,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:26:47.053Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:26:47.037Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"ID "~Browse" não respondeu rápido. Forçando coordenada..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:26:48.618Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:26:48.619Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:26:47.037Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"ID "~Browse" não respondeu rápido. Forçando coordenada..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:26:48.622Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 466 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:26:48.622Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:26:47.037Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"ID \"~Browse\" não respondeu rápido. Forçando coordenada...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:26:48.623Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:48.623Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:26:49.212Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:26:49.213Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:26:49.213Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:26:49.214Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:26:49.214Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456408623.7144,"duration":589.9718000292778,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:27:08.903Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:27:08.891Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Clique posicional enviado para Aba 1."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    },
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:27:08.891Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Selecionando produto na vitrine..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:27:10.746Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:27:10.748Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:27:08.891Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Clique posicional enviado para Aba 1."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      },
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:27:08.891Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Selecionando produto na vitrine..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:27:10.748Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 841 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:27:10.749Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:27:08.891Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Clique posicional enviado para Aba 1.\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"},{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:27:08.891Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Selecionando produto na vitrine...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:27:10.751Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:27:10.751Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:27:11.606Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:27:11.607Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:27:11.607Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:27:11.607Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:27:11.607Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456430751.8516,"duration":855.558699965477,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:27:49.186Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:27:49.183Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Item estrutural não encontrado. Tentando clique no centro da tela..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:27:50.945Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:27:50.946Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:27:49.183Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Item estrutural não encontrado. Tentando clique no centro da tela..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:27:50.946Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 473 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:27:50.946Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:27:49.183Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Item estrutural não encontrado. Tentando clique no centro da tela...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:27:50.946Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:27:50.946Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:27:51.439Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:27:51.440Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:27:51.440Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:27:51.440Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:27:51.440Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456470947.0452,"duration":493.27140003442764,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:11.447Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:11.445Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Adicionando produto ao carrinho..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:13.038Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:28:13.039Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:11.445Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Adicionando produto ao carrinho..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:13.039Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 438 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:28:13.039Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:11.445Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Adicionando produto ao carrinho...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:28:13.039Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:13.039Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:28:13.524Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:28:13.525Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:13.525Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:28:13.525Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:28:13.525Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456493039.9614,"duration":485.3431000113487,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:17.751Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:17.748Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Botão não mapeado. Executando toque posicional centralizado inferior..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:18.874Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:18.871Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Clique posicional enviado ao botão de compra."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    },
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:18.871Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Abrindo tela do carrinho..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:19.042Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 2
+2026-05-22T13:28:19.042Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:17.748Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Botão não mapeado. Executando toque posicional centralizado inferior..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:18.871Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Clique posicional enviado ao botão de compra."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      },
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:18.871Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Abrindo tela do carrinho..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:19.042Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 1319 bytes. Events are 'LogCreated':undefined,'LogCreated':undefined
+2026-05-22T13:28:19.042Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:17.748Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Botão não mapeado. Executando toque posicional centralizado inferior...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]},{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:18.871Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Clique posicional enviado ao botão de compra.\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"},{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:18.871Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Abrindo tela do carrinho...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:28:19.042Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:19.043Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:28:19.509Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:28:19.509Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:19.509Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined,'LogCreated':undefined -- {"success":true}
+2026-05-22T13:28:19.509Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:28:19.509Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456499043.3667,"duration":466.38499999046326,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:32.276Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:32.270Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Ícone do carrinho inacessível. Forçando clique no canto inferior direito..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:33.099Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:28:33.100Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:32.270Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Ícone do carrinho inacessível. Forçando clique no canto inferior direito..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:33.100Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 482 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:28:33.101Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:32.270Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Ícone do carrinho inacessível. Forçando clique no canto inferior direito...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:28:33.101Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:33.101Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:28:33.587Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:28:33.587Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:33.587Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:28:33.587Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:28:33.588Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456513101.5137,"duration":486.31319999694824,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:33.869Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:33.867Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Iniciando finalização do pedido..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:35.113Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:28:35.114Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:33.867Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Iniciando finalização do pedido..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:35.114Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 440 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:28:35.114Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:33.867Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Iniciando finalização do pedido...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:28:35.114Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:35.114Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:28:35.628Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:28:35.629Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:35.629Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:28:35.629Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:28:35.629Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456515115.1484,"duration":513.9777999520302,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:39.940Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:39.933Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Botão de Checkout textual não localizado. Tentando clique forçado no rodapé..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:41.124Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 1
+2026-05-22T13:28:41.125Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:39.933Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Botão de Checkout textual não localizado. Tentando clique forçado no rodapé..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:41.125Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 486 bytes. Events are 'LogCreated':undefined
+2026-05-22T13:28:41.125Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:39.933Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Botão de Checkout textual não localizado. Tentando clique forçado no rodapé...\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]}]
+2026-05-22T13:28:41.125Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:41.125Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:28:41.599Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:28:41.599Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:41.599Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+2026-05-22T13:28:41.599Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:28:41.599Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456521125.7107,"duration":473.7204000353813,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:43.321Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:43.317Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Fluxo finalizado de forma ultra rápida!"',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:43.322Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.27.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_name":"Deve realizar checkout com sucesso","test_code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}","test_file_path":"test\\specs\\checkout-ios.e2e.ts","test_location":"test\\specs\\checkout-ios.e2e.ts","test_scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_scopes":["Fluxo de compra iOS - EBAC Store"],"test_started_at":"2026-05-22T13:26:03.494Z","automate_session_name":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-05-22T13:28:43.318Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-05-22T13:28:43.323Z CLI debug [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  TestRunFinished: test_run={"type":"test","framework":"WebdriverIO-mocha","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","name":"Deve realizar checkout com sucesso","body":{"lang":"ecmascript","code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}"},"identifier":"Deve realizar checkout com sucesso","scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","scopes":["Fluxo de compra iOS - EBAC Store"],"file_name":"test\\specs\\checkout-ios.e2e.ts","vc_filepath":"test\\specs\\checkout-ios.e2e.ts","location":"test\\specs\\checkout-ios.e2e.ts","result":"passed","duration_in_ms":159824,"started_at":"2026-05-22T13:26:03.494Z","finished_at":"2026-05-22T13:28:43.318Z","failure":null,"failure_type":null,"failure_reason":null,"retry_of":null,"tags":[],"customRerunParam":{},"hooks":[],"product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false}}
+2026-05-22T13:28:43.323Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+    name: 'Deve realizar checkout com sucesso',
+    body: {
+      lang: 'ecmascript',
+      code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+    },
+    identifier: 'Deve realizar checkout com sucesso',
+    scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+    scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+    file_name: 'test\\specs\\checkout-ios.e2e.ts',
+    vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+    location: 'test\\specs\\checkout-ios.e2e.ts',
+    result: 'passed',
+    duration_in_ms: 159824,
+    started_at: '2026-05-22T13:26:03.494Z',
+    finished_at: '2026-05-22T13:28:43.318Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 18880:0
+2026-05-22T13:28:45.134Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing events. Queue Length - 2
+2026-05-22T13:28:45.134Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:43.317Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Fluxo finalizado de forma ultra rápida!"',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      name: 'Deve realizar checkout com sucesso',
+      body: {
+        lang: 'ecmascript',
+        code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+      },
+      identifier: 'Deve realizar checkout com sucesso',
+      scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+      scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+      file_name: 'test\\specs\\checkout-ios.e2e.ts',
+      vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+      location: 'test\\specs\\checkout-ios.e2e.ts',
+      result: 'passed',
+      duration_in_ms: 159824,
+      started_at: '2026-05-22T13:26:03.494Z',
+      finished_at: '2026-05-22T13:28:43.318Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 18880:0
+2026-05-22T13:28:45.134Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch events for Interval-Queue. Request Size - 4671 bytes. Events are 'LogCreated':undefined,'TestRunFinished':f8b4231f-f580-431a-a9a2-cfe3bf863348
+2026-05-22T13:28:45.134Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Event Batch [{"event_type":"LogCreated","logs":[{"testFrameworkName":"WebdriverIO-mocha","testFrameworkVersion":"9.27.0","testFrameworkState":"LOG","timestamp":"2026-05-22T13:28:43.317Z","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","kind":"TEST_LOG","message":"\"Fluxo finalizado de forma ultra rápida!\"","level":"INFO","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","test_run_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348"}]},{"event_type":"TestRunFinished","test_run":{"type":"test","framework":"WebdriverIO-mocha","uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","name":"Deve realizar checkout com sucesso","body":{"lang":"ecmascript","code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}"},"identifier":"Deve realizar checkout com sucesso","scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","scopes":["Fluxo de compra iOS - EBAC Store"],"file_name":"test\\specs\\checkout-ios.e2e.ts","vc_filepath":"test\\specs\\checkout-ios.e2e.ts","location":"test\\specs\\checkout-ios.e2e.ts","result":"passed","duration_in_ms":159824,"started_at":"2026-05-22T13:26:03.494Z","finished_at":"2026-05-22T13:28:43.318Z","failure":null,"failure_type":null,"failure_reason":null,"retry_of":null,"tags":[],"customRerunParam":{},"hooks":[],"product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false}},"logs":[]}]
+2026-05-22T13:28:45.134Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:45.135Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch
+2026-05-22T13:28:45.347Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  StopBinSession details: {"binSessionId":"36a516bf-bbe7-4cef-8913-763133b41271","sdkLanguage":"ECMAScript","sdkVersion":"9.27.0","pathProject":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","pathConfig":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\browserstack.yml","cliArgs":["run","wdio.conf.js"],"frameworks":["WebdriverIO","WebdriverIO-mocha"],"frameworkVersions":{"WebdriverIO":"9.27.0","WebdriverIO-mocha":"9.27.0"},"language":"ECMAScript","languageVersion":"","testFramework":"WebdriverIO-mocha","wdioConfig":"{\"userName\":\"[REDACTED]\",\"accessKey\":\"[REDACTED]\",\"platforms\":[{\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone 15\",\"appium:platformVersion\":\"17\",\"appium:automationName\":\"XCUITest\",\"appium:app\":\"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad\",\"wdioService\":\"9.27.0\"}],\"isNonBstackA11yWDIO\":false,\"browserstackLocal\":true,\"accessibility\":null,\"testObservability\":true,\"testContextOptions\":{\"skipSessionName\":false,\"skipSessionStatus\":false,\"sessionNameOmitTestTitle\":false,\"sessionNamePrependTopLevelSuiteTitle\":false,\"sessionNameFormat\":\"\"},\"buildTag\":[]}","id":"36a516bf-bbe7-4cef-8913-763133b41271","config":{"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":false,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[],"browserStackLocalOptions":{"localIdentifier":"May_22_1025_JpMartin_238i","key":"[REDACTED]","skipBinaryInitialisation":false},"browserstackAutomation":true,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"additionalPlatforms":[],"additionalParams":{},"testOrchestrationOptions":{"retryTestsOnFailure":{},"abortBuildOnFailure":{}},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"hubUrl":"https://hub-use.browserstack.com/wd/hub","proxySettings":{}},"ciInfo":{"build_number":null},"versionControlInfo":{"name":"git","sha":"e0ceb80d61ace2e6c3b275fbb1b149c321803a01","short_sha":"e0ceb80d61","branch":"main","tag":null,"committer":"Joao <djoaopedromartin8@gmail.com>","committer_date":"2026-05-22T13:22:30.000Z","author":"Joao <djoaopedromartin8@gmail.com>","author_date":"2026-05-22T13:20:43.000Z","commit_message":"Aplicando boas práticas de segurança","root":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests","common_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","worktree_git_dir":"C:\\Users\\djoao\\Desktop\\repositorio\\ios-mobile-tests\\.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/JoaoPedromart573/ios-mobile-tests.git"}]},"hostInfo":{"hostname":"JpMartin","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"data":{},"isAppAutomate":false,"browserstackSDK":"WebdriverIO-mocha-ECMAScriptagent/9.27.0","productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"centralAuthFlow":true,"testhub":{"automate":{"success":true,"options":{"allow_screenshots":true}},"jwt":"eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzc5NDY3MTE1IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjExMDAxMDA3LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6MTA5MTMzOTcsInRlYW1faWQiOm51bGwsInVkYWNfYWNjZXNzIjoiZ2xvYmFsIn0.V0y2CIb20T7msXGjimK7y7HeXuaYRW2H8N6ca3gaPHLD5GMK3le3_uqsiSXxbKnVo9icEUphPtKyQ9yZNu-Ue9falgrfo4AhzaRKd8Ip6XBnUMhOqCIUDkaKLaUKdMUojlwq2Y08BdWJ1-Fe-9A_PDGXORiOKEop78oP_J-KaKHLBVWRml9lLgCv0bcmlzp6_wlRz6juRGhb6FH6AEdtWhdtifIPy99aJxwGKwx67As3Gei5sF3jnq9YB6vuvhjAjkibQd_aq7y0wNpbQfBaykr24vGVwFZOeE1VncwPXq0dln-lGU9p1wpm2fKV-BQ4H-kHdbPdntKXv_xCAYNbBA","buildHashedId":"6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf","testhubEvents":true,"jwtExpiresIn":1779464176},"observability":{"success":true,"options":{"allow_screenshots":true,"testObservabilityOptions":{},"allowScreenshots":true}}}
+2026-05-22T13:28:45.348Z CLI debug [appautomate:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  path link automate/builds.json?name=undefined&build_identifier=undefined
+2026-05-22T13:28:45.348Z CLI debug [appautomate:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://api.browserstack.com/automate/builds.json to get build link
+2026-05-22T13:28:45.348Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-05-22T13:28:45.348Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://api.browserstack.com/automate/builds.json
+2026-05-22T13:28:45.351Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending 0 new batches plus 13 in-flight batches during shutdown
+2026-05-22T13:28:45.564Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://api.browserstack.com/automate/builds.json: 200 OK
+2026-05-22T13:28:45.565Z CLI debug [appautomate:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://api.browserstack.com/automate/builds.json: 200
+2026-05-22T13:28:45.565Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:automate:print-buildlink
+2026-05-22T13:28:45.565Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://api.browserstack.com/automate/builds.json {"name":"request:https://api.browserstack.com/automate/builds.json","entryType":"measure","startTime":1779456525349.1543,"duration":216.00800001621246,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:45.627Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch: 200 OK
+2026-05-22T13:28:45.627Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:45.627Z CLI debug [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':f8b4231f-f580-431a-a9a2-cfe3bf863348 -- {"success":true}
+2026-05-22T13:28:45.627Z CLI verbose [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Remaining Queue Length - 0
+2026-05-22T13:28:45.628Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-05-22T13:28:45.628Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/stop
+2026-05-22T13:28:45.629Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/batch","entryType":"measure","startTime":1779456525135.6665,"duration":491.71380001306534,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:45.630Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:cli:batchShutdown {"name":"sdk:cli:batchShutdown","entryType":"measure","startTime":1779456525351.5454,"duration":276.5776000022888,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0,"remainingUploads":0}
+2026-05-22T13:28:46.112Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/stop: 200 OK
+2026-05-22T13:28:46.112Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from undefined: 200
+2026-05-22T13:28:46.112Z CLI info [testhub:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  stopBuild: 6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf request={"finished_at":"2026-05-22T13:28:45.348Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-05-22T13:28:46.113Z CLI debug [testhub:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStop: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:28:46.114Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Firing CLI event for funnel data at sdk/v1/event
+2026-05-22T13:28:46.114Z CLI debug [instrumentation:funnel]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to sdk/v1/event
+2026-05-22T13:28:46.114Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-05-22T13:28:46.114Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Sending request to https://api.browserstack.com/sdk/v1/event
+2026-05-22T13:28:46.117Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:_0x580fe7 {"name":"sdk:hook:onStop:_0x580fe7","entryType":"measure","startTime":1779456525348.4087,"duration":764.8874999880791,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.117Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/stop {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf/stop","entryType":"measure","startTime":1779456525628.3323,"duration":484.5557000041008,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.321Z CLI debug [core:http]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2026-05-22T13:28:46.321Z CLI debug [instrumentation:funnel]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Response from sdk/v1/event: 200
+2026-05-22T13:28:46.321Z CLI debug [instrumentation:funnel]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  API Event response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2026-05-22T13:28:46.321Z CLI debug [instrumentation:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Instrumentation onStop: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:28:46.321Z CLI debug [TEST REPORTING AND ANALYTICS:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStop: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:28:46.322Z CLI debug [TEST REPORTING AND ANALYTICS:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  report: date=2026-05-22T13:26:03.560Z uuid=f8b4231f-f580-431a-a9a2-cfe3bf863348 events=TestRunStarted,TestRunFinished complete=true
+2026-05-22T13:28:46.322Z CLI debug [TEST REPORTING AND ANALYTICS:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  report-summary: success=true open=0 complete=1 total=2 start=2026-05-22T13:26:03.560Z end=2026-05-22T13:26:03.560Z
+2026-05-22T13:28:46.322Z CLI info [TEST REPORTING AND ANALYTICS:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Visit https://automation.browserstack.com/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf to view build report, insights, and many more debugging information all at one place!
+2026-05-22T13:28:46.322Z CLI debug [local:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStop: localIdentifier=May_22_1025_JpMartin_238i
+2026-05-22T13:28:46.332Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:instrumentation:module {"name":"sdk:hook:onStop:instrumentation:module","entryType":"measure","startTime":1779456526113.3325,"duration":208.39590001106262,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.332Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file request:https://api.browserstack.com/sdk/v1/event {"name":"request:https://api.browserstack.com/sdk/v1/event","entryType":"measure","startTime":1779456526114.9548,"duration":206.64120000600815,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.332Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:observability:module {"name":"sdk:hook:onStop:observability:module","entryType":"measure","startTime":1779456526321.7444,"duration":1.082099974155426,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.332Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:accessibility:module {"name":"sdk:hook:onStop:accessibility:module","entryType":"measure","startTime":1779456526322.8445,"duration":0.005800008773803711,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.332Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:_0x441e63 {"name":"sdk:hook:onStop:_0x441e63","entryType":"measure","startTime":1779456526322.8567,"duration":0.002599954605102539,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.332Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:_0x3f6988 {"name":"sdk:hook:onStop:_0x3f6988","entryType":"measure","startTime":1779456526322.8657,"duration":0.002499997615814209,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}
+2026-05-22T13:28:46.522Z CLI debug [local:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStop: 36a516bf-bbe7-4cef-8913-763133b41271
+2026-05-22T13:28:46.523Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  onStop hook invoked successfully.
+2026-05-22T13:28:46.525Z CLI debug [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  StopBinSession Completed: time=1177.6692000031471
+2026-05-22T13:28:46.527Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Need to write this in file sdk:cli:onStop
+2026-05-22T13:28:46.528Z CLI debug  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Not Needed to write this in file sdk:hook:onStop:_0x14e7d7 {"name":"sdk:hook:onStop:_0x14e7d7","entryType":"measure","startTime":1779456526322.8735,"duration":200.32119995355606,"detail":null,"success":true,"failure":null,"worker":"unknown","platform":0}

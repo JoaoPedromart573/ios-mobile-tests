@@ -5653,3 +5653,781 @@
 2026-05-21T13:27:58.780Z CLI info [testhub:module]  [szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat]  [9f62c5b9-ec6d-45e2-8a95-70f473f873b1]  stopBuild: szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat request={"finished_at":"2026-05-21T13:27:58.092Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
 2026-05-21T13:27:58.782Z CLI info  [szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat]  [9f62c5b9-ec6d-45e2-8a95-70f473f873b1]  [PRODUCTION] Making POST request to https://api.browserstack.com
 2026-05-21T13:27:59.005Z CLI info [TEST REPORTING AND ANALYTICS:module]  [szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat]  [9f62c5b9-ec6d-45e2-8a95-70f473f873b1]  Visit https://automation.browserstack.com/builds/szivggpa9lxzzzafjixwdpg4jxrak2ggqqzolzat to view build report, insights, and many more debugging information all at one place!
+2026-05-22T13:25:13.183Z CLI info [main]    Server listening on port: 5400
+2026-05-22T13:25:13.226Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"iOS","appium:deviceName":"iPhone 15","appium:platformVersion":"17","appium:automationName":"XCUITest","appium:app":"bs://54e7334ee1f06ea30cf8caf212b0e2b6d04ed1ad","wdioService":"9.27.0"}],"isNonBstackA11yWDIO":false,"browserstackLocal":true,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-05-22T13:25:13.325Z CLI info    Should start debug utility: undefined
+2026-05-22T13:25:13.330Z CLI info [testhub:module]   [36a516bf-bbe7-4cef-8913-763133b41271]  Starting testhub from 18880:0
+2026-05-22T13:25:13.331Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-05-22T13:25:13.333Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-05-22T13:25:14.241Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-05-22T13:25:14.242Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-05-22T13:25:14.243Z CLI info   [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-05-22T13:25:14.363Z CLI info [testhub:module]   [36a516bf-bbe7-4cef-8913-763133b41271]  startBuild: response=6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf
+2026-05-22T13:25:14.366Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-05-22T13:25:40.134Z CLI info [sdk:service]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Driver initialized as primary driver: platformIndex=0
+2026-05-22T13:26:03.558Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+    integrations: { browserstack: [Object] }
+  }
+} to 18880:0
+2026-05-22T13:26:03.563Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+    name: 'Deve realizar checkout com sucesso',
+    body: {
+      lang: 'ecmascript',
+      code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+    },
+    identifier: 'Deve realizar checkout com sucesso',
+    scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+    scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+    file_name: 'test\\specs\\checkout-ios.e2e.ts',
+    vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+    location: 'test\\specs\\checkout-ios.e2e.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-05-22T13:26:03.494Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 18880:0
+2026-05-22T13:26:04.356Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: '01e8b6bed191193d62678e440739df202de04844',
+          capabilities: {
+            webStorageEnabled: false,
+            locationContextEnabled: false,
+            browserName: '',
+            platform: 'MAC',
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            takesScreenshot: true,
+            networkConnectionEnabled: false,
+            platformName: 'iOS',
+            'bstack:options': {
+              localIdentifier: 'May_22_1025_JpMartin_238i',
+              hostName: 'JpMartin'
+            },
+            newCommandTimeout: 0,
+            realMobile: 'true',
+            deviceName: 'iPhone 15',
+            safariIgnoreFraudWarning: true,
+            orientation: 'PORTRAIT',
+            deviceOrientation: 'PORTRAIT',
+            noReset: true,
+            automationName: 'XCUITest',
+            keychainPath: '[REDACTED VALUE]',
+            keychainPassword: '[REDACTED VALUE]',
+            useXctestrunFile: true,
+            bootstrapPath: '/usr/local/.browserstack/config/wda_derived_data_17_3.2.0.10.23.2_515e29e8-234f-4a0f-a938-5ab844beed3d/Build/Products',
+            'browserstack.isTargetBased': 'true',
+            bundleID: 'br.com.lojaebac',
+            bundleId: 'br.com.lojaebac',
+            udid: '00008120-001864903AE1A01E',
+            webkitResponseTimeout: 20000,
+            safariInitialUrl: 'http://mobile-internet-check.browserstack.com',
+            waitForQuiescence: false,
+            wdaStartupRetries: 3
+          },
+          platform: 'iOS',
+          platform_version: '17',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      name: 'Deve realizar checkout com sucesso',
+      body: {
+        lang: 'ecmascript',
+        code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+      },
+      identifier: 'Deve realizar checkout com sucesso',
+      scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+      scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+      file_name: 'test\\specs\\checkout-ios.e2e.ts',
+      vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+      location: 'test\\specs\\checkout-ios.e2e.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-05-22T13:26:03.494Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 18880:0
+2026-05-22T13:26:04.357Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:04.603Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:26:04.577Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Inicializando sessão e aguardando abertura do app..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:26:06.364Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:26:04.577Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Inicializando sessão e aguardando abertura do app..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:26:06.365Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:09.628Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:26:09.597Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Acessando aba inicial..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:26:10.382Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:26:09.597Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Acessando aba inicial..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:26:10.384Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:26:47.053Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:26:47.037Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"ID "~Browse" não respondeu rápido. Forçando coordenada..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:26:48.619Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:26:47.037Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"ID "~Browse" não respondeu rápido. Forçando coordenada..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:26:48.623Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:27:08.903Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:27:08.891Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Clique posicional enviado para Aba 1."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    },
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:27:08.891Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Selecionando produto na vitrine..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:27:10.748Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:27:08.891Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Clique posicional enviado para Aba 1."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      },
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:27:08.891Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Selecionando produto na vitrine..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:27:10.751Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:27:49.186Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:27:49.183Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Item estrutural não encontrado. Tentando clique no centro da tela..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:27:50.946Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:27:49.183Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Item estrutural não encontrado. Tentando clique no centro da tela..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:27:50.946Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:11.447Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:11.445Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Adicionando produto ao carrinho..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:13.039Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:11.445Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Adicionando produto ao carrinho..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:13.039Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:17.751Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:17.748Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Botão não mapeado. Executando toque posicional centralizado inferior..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:18.874Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:18.871Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Clique posicional enviado ao botão de compra."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    },
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:18.871Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Abrindo tela do carrinho..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:19.042Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:17.748Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Botão não mapeado. Executando toque posicional centralizado inferior..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:18.871Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Clique posicional enviado ao botão de compra."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      },
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:18.871Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Abrindo tela do carrinho..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:19.042Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:32.276Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:32.270Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Ícone do carrinho inacessível. Forçando clique no canto inferior direito..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:33.100Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:32.270Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Ícone do carrinho inacessível. Forçando clique no canto inferior direito..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:33.101Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:33.869Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:33.867Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Iniciando finalização do pedido..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:35.114Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:33.867Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Iniciando finalização do pedido..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:35.114Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:39.940Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:39.933Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Botão de Checkout textual não localizado. Tentando clique forçado no rodapé..."',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:41.125Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:39.933Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Botão de Checkout textual não localizado. Tentando clique forçado no rodapé..."',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  }
+] to 18880:0
+2026-05-22T13:28:41.125Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:43.321Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'WebdriverIO-mocha',
+      testFrameworkVersion: '9.27.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2026-05-22T13:28:43.317Z',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      kind: 'TEST_LOG',
+      message: '"Fluxo finalizado de forma ultra rápida!"',
+      level: 'INFO',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+    }
+  ]
+} to 18880:0
+2026-05-22T13:28:43.322Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.27.0","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f8b4231f-f580-431a-a9a2-cfe3bf863348","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_name":"Deve realizar checkout com sucesso","test_code":"async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log(\"Inicializando sess\\xE3o e aguardando abertura do app...\");await driver.pause(5e3);console.log(\"Acessando aba inicial...\");let browseTab=await $(\"~Browse\");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log(\"Aba Browse acionada via ID.\");clickSuccessful=true}catch(e){console.log('ID \"~Browse\" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log(\"Clique posicional enviado para Aba 1.\")}catch(err){console.log(\"Ignorando falha de coordenada do Passo 1.\")}}console.log(\"Selecionando produto na vitrine...\");let product=await $(\"(//XCUIElementTypeCell)[1]\");try{await product.waitForExist({timeout:5e3});await product.click();console.log(\"Produto selecionado.\")}catch(e){console.log(\"Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log(\"Adicionando produto ao carrinho...\");const addToCart=await $('//XCUIElementTypeButton[@name=\"Adicionar ao carrinho\" or @label=\"Adicionar ao carrinho\" or @name=\"Add to Cart\" or @label=\"Add to Cart\"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log(\"Produto adicionado por texto direto.\");addedToCart=true}catch(buttonError){console.log(\"Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...\")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log(\"Clique posicional enviado ao bot\\xE3o de compra.\")}catch(err){console.log(\"Ignorando conting\\xEAncia do Passo 3.\")}}console.log(\"Abrindo tela do carrinho...\");let cartTab=await $(\"~Cart\");if(!await cartTab.isExisting()){cartTab=await $(\"~Carrinho\")}try{await cartTab.click();console.log(\"Aba Carrinho aberta.\")}catch(cartError){console.log(\"\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log(\"Iniciando finaliza\\xE7\\xE3o do pedido...\");const checkoutBtn=await $('//XCUIElementTypeButton[@name=\"Checkout\" or @name=\"Finalizar Compra\" or @name=\"Continuar\"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log(\"Bot\\xE3o Checkout acionado.\")}catch(e){console.log(\"Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...\");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name=\"Place Order\" or @name=\"Confirmar Pedido\"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log(\"Pedido finalizado com sucesso.\")}}catch(e){}console.log(\"Fluxo finalizado de forma ultra r\\xE1pida!\")}","test_file_path":"test\\specs\\checkout-ios.e2e.ts","test_location":"test\\specs\\checkout-ios.e2e.ts","test_scope":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_scopes":["Fluxo de compra iOS - EBAC Store"],"test_started_at":"2026-05-22T13:26:03.494Z","automate_session_name":"Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-05-22T13:28:43.318Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-05-22T13:28:43.323Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+    name: 'Deve realizar checkout com sucesso',
+    body: {
+      lang: 'ecmascript',
+      code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+    },
+    identifier: 'Deve realizar checkout com sucesso',
+    scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+    scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+    file_name: 'test\\specs\\checkout-ios.e2e.ts',
+    vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+    location: 'test\\specs\\checkout-ios.e2e.ts',
+    result: 'passed',
+    duration_in_ms: 159824,
+    started_at: '2026-05-22T13:26:03.494Z',
+    finished_at: '2026-05-22T13:28:43.318Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 18880:0
+2026-05-22T13:28:45.134Z CLI info [testhub:request-queue-handler]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Processing batch event [
+  {
+    event_type: 'LogCreated',
+    logs: [
+      {
+        testFrameworkName: 'WebdriverIO-mocha',
+        testFrameworkVersion: '9.27.0',
+        testFrameworkState: 'LOG',
+        timestamp: '2026-05-22T13:28:43.317Z',
+        uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+        kind: 'TEST_LOG',
+        message: '"Fluxo finalizado de forma ultra rápida!"',
+        level: 'INFO',
+        fileName: '',
+        fileSize: Long { low: 0, high: 0, unsigned: false },
+        filePath: '',
+        test_run_uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348'
+      }
+    ]
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'f8b4231f-f580-431a-a9a2-cfe3bf863348',
+      name: 'Deve realizar checkout com sucesso',
+      body: {
+        lang: 'ecmascript',
+        code: `async function(){await driver.setTimeout({implicit:500,script:15e3,pageLoad:15e3});console.log("Inicializando sess\\xE3o e aguardando abertura do app...");await driver.pause(5e3);console.log("Acessando aba inicial...");let browseTab=await $("~Browse");let clickSuccessful=false;try{await browseTab.waitForExist({timeout:3e3});await browseTab.click();console.log("Aba Browse acionada via ID.");clickSuccessful=true}catch(e){console.log('ID "~Browse" n\\xE3o respondeu r\\xE1pido. For\\xE7ando coordenada...')}if(!clickSuccessful){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.15),Math.round(windowSize.height*.94));console.log("Clique posicional enviado para Aba 1.")}catch(err){console.log("Ignorando falha de coordenada do Passo 1.")}}console.log("Selecionando produto na vitrine...");let product=await $("(//XCUIElementTypeCell)[1]");try{await product.waitForExist({timeout:5e3});await product.click();console.log("Produto selecionado.")}catch(e){console.log("Item estrutural n\\xE3o encontrado. Tentando clique no centro da tela...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.4))}console.log("Adicionando produto ao carrinho...");const addToCart=await $('//XCUIElementTypeButton[@name="Adicionar ao carrinho" or @label="Adicionar ao carrinho" or @name="Add to Cart" or @label="Add to Cart"]');let addedToCart=false;try{await addToCart.waitForExist({timeout:5e3});await addToCart.click();console.log("Produto adicionado por texto direto.");addedToCart=true}catch(buttonError){console.log("Bot\\xE3o n\\xE3o mapeado. Executando toque posicional centralizado inferior...")}if(!addedToCart){try{const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.85));console.log("Clique posicional enviado ao bot\\xE3o de compra.")}catch(err){console.log("Ignorando conting\\xEAncia do Passo 3.")}}console.log("Abrindo tela do carrinho...");let cartTab=await $("~Cart");if(!await cartTab.isExisting()){cartTab=await $("~Carrinho")}try{await cartTab.click();console.log("Aba Carrinho aberta.")}catch(cartError){console.log("\\xCDcone do carrinho inacess\\xEDvel. For\\xE7ando clique no canto inferior direito...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.85),Math.round(windowSize.height*.94))}console.log("Iniciando finaliza\\xE7\\xE3o do pedido...");const checkoutBtn=await $('//XCUIElementTypeButton[@name="Checkout" or @name="Finalizar Compra" or @name="Continuar"]');try{await checkoutBtn.waitForDisplayed({timeout:5e3});await checkoutBtn.click();console.log("Bot\\xE3o Checkout acionado.")}catch(e){console.log("Bot\\xE3o de Checkout textual n\\xE3o localizado. Tentando clique for\\xE7ado no rodap\\xE9...");const windowSize=await driver.getWindowRect();await tapAction(Math.round(windowSize.width*.5),Math.round(windowSize.height*.8))}try{const confirmBtn=await $('//XCUIElementTypeButton[@name="Place Order" or @name="Confirmar Pedido"]');if(await confirmBtn.isExisting()){await confirmBtn.click();console.log("Pedido finalizado com sucesso.")}}catch(e){}console.log("Fluxo finalizado de forma ultra r\\xE1pida!")}`
+      },
+      identifier: 'Deve realizar checkout com sucesso',
+      scope: 'Fluxo de compra iOS - EBAC Store - Deve realizar checkout com sucesso',
+      scopes: [ 'Fluxo de compra iOS - EBAC Store' ],
+      file_name: 'test\\specs\\checkout-ios.e2e.ts',
+      vc_filepath: 'test\\specs\\checkout-ios.e2e.ts',
+      location: 'test\\specs\\checkout-ios.e2e.ts',
+      result: 'passed',
+      duration_in_ms: 159824,
+      started_at: '2026-05-22T13:26:03.494Z',
+      finished_at: '2026-05-22T13:28:43.318Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 18880:0
+2026-05-22T13:28:45.134Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-05-22T13:28:45.348Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-05-22T13:28:45.628Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-05-22T13:28:46.112Z CLI info [testhub:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  stopBuild: 6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf request={"finished_at":"2026-05-22T13:28:45.348Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-05-22T13:28:46.114Z CLI info  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-05-22T13:28:46.322Z CLI info [TEST REPORTING AND ANALYTICS:module]  [6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf]  [36a516bf-bbe7-4cef-8913-763133b41271]  Visit https://automation.browserstack.com/builds/6jxdhiivsley3zmmy00jlyu0rvxtygfv0pgxkgbf to view build report, insights, and many more debugging information all at one place!
